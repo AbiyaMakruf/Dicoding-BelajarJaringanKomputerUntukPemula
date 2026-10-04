@@ -11,6 +11,8 @@ Proyek ini merupakan submission akhir untuk kelas Dicoding **Belajar Jaringan Ko
 [![Ubuntu WSL](https://img.shields.io/badge/Environment-WSL%20Ubuntu-E95420?logo=ubuntu&logoColor=white)](https://ubuntu.com/)
 [![Status: Bintang 5](https://img.shields.io/badge/Rating-Bintang%205%20(Semua%20Saran%20Terpenuhi)-success)](#pemenuhan-kriteria-penilaian-bintang-5)
 
+![Bukti Penilaian Proyek](readme/nilai.png)
+
 ---
 
 ## Deskripsi Project
@@ -53,15 +55,8 @@ Dicoding-BelajarJaringanKomputerUntukPemula/
 ├── konfigurasiNGINX_abiyamf.txt       # Salinan konfigurasi /etc/nginx/sites-available/default
 ├── konfigurasiApache2_abiyamf.txt     # Salinan konfigurasi /etc/apache2/sites-available/000-default.conf
 ├── ports_abiyamf.txt                  # Salinan konfigurasi /etc/apache2/ports.conf (Port 3000)
-├── submission_abiyamf.zip             # Arsip berkas submission siap submit ke Dicoding
-├── submission_abiyamf/                # Folder berisi kumpulan berkas teks submission
-│   ├── app.js
-│   ├── konfigurasiApache2_abiyamf.txt
-│   ├── konfigurasiNGINX_abiyamf.txt
-│   └── ports_abiyamf.txt
-└── ai-agent/                          # Panduan dan referensi modul submission
-    ├── instruksi_submission.md        # Panduan terstruktur submission (4 bagian)
-    └── README.md                      # Contoh struktur acuan dokumentasi
+└── readme/                            # Berkas aset dokumentasi
+    └── nilai.png                      # Bukti verifikasi penilaian Bintang 5 Dicoding
 ```
 
 ---
@@ -294,7 +289,7 @@ Sesuai ketentuan pengiriman proyek Dicoding untuk penilaian Bintang 5:
 2. **`konfigurasiApache2_abiyamf.txt`**: Konfigurasi lengkap Apache2 di `/etc/apache2/sites-available/000-default.conf` mencakup `<VirtualHost *:3000>` dan *ProxyPass* ke backend port 8000.
 3. **`ports_abiyamf.txt`**: Konfigurasi `/etc/apache2/ports.conf` dengan arahan `Listen 3000`.
 4. **`app.js`**: Kode sumber web server Express yang telah ditambahkan route `GET /me` dengan respons username `abiyamf`.
-5. **`submission_abiyamf.zip`**: Arsip ZIP siap unggah yang berisi langsung keempat berkas di atas tanpa adanya struktur "ZIP di dalam ZIP".
+5. **`readme/nilai.png`**: Bukti verifikasi penilaian proyek diterima dengan predikat Bintang 5.
 
 ### Catatan untuk Tim Reviewer Dicoding:
 > *Catatan dapat disalin langsung pada kolom Catatan Submission di dashboard Dicoding:*
